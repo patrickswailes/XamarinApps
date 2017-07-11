@@ -12,6 +12,15 @@ namespace App4
 		public MainPage()
 		{
 			InitializeComponent();
+			//title = new Label("LIFT NOW");
+			this.Title = "LiftMore";
+			Content = new Label
+			{
+				Text = "Lift Now",
+				FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+				//VerticalOptions = LayoutOptions.CenterAndExpand,
+				//HorizontalOptions = LayoutOptions.CenterAndExpand,
+			};
 		}
 	}
 }

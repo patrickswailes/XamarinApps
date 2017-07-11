@@ -23,7 +23,7 @@ namespace App4
 			{
 				Children =
 				{
-					new NavigationPage(new ListViewPage())
+					new NavigationPage(new TableView())
 					{
 						Title = "Exercises",
 						Icon = Device.OnPlatform("tab_feed.png",null,null)
